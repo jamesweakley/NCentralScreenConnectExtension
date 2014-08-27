@@ -168,7 +168,7 @@ if (mainPanel !=null)
 			a.id=pcName;
 			if (atSOLevel)
 			{
-				a.class=activeIssuesDevices[1].parentNode.getElementsByClassName("field-customerName")[0].firstChild.data.trim();
+				a.class=activeIssuesDevices[i].parentNode.getElementsByClassName("field-customerName")[0].firstChild.data.trim();
 			}
 			else
 			{
